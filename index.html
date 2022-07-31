@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <!-- 
+main content -->
+
+    <div class="bg-img">
+        <h1 class="imgtext"> Find the best bussiness in town </h1>
+        <p class="pimgtext">Search for restaurants , contractors , and other local business in your area to find out
+            which one are the best!</p>
+        
+        
+    </div>
+    <h1 class="h1text" >Browse Business</h1>
+    <p class="ptext">Not sure what to search for? Browse some of the most popular categories.</p>
+
+    <div class="continer">
+        <table >
+            <tr >
+                <td>
+                    <div class="card">
+                        <img src="restaraunt.jpg" alt="restaraunt" style="width:100%">
+                        <div class="container">
+                            <h4><b>Restaraunt</b></h4>
+                            
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="card">
+                        <img src="dry cleaning.jpg" alt="restaraunt" style="width:100%">
+                        <div class="container">
+                            <h4><b>Dry cleaning</b></h4>
+                           
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="card">
+                        <img src="gym.jpg" alt="restaraunt" style="width:100%">
+                        <div class="container">
+                            <h4><b>Gym</b></h4>
+                           
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="card">
+                        <img src="cofee.jpg" alt="restaraunt" style="width:100%">
+                        <div class="container">
+                            <h4><b>Cofee</b></h4>
+                            
+                        </div>
+                    </div>
+                </td>
+
+                
+            </tr>
+
+            <tr >
+                <td>
+                    <div class="card">
+                        <img src="medical.jpg" alt="restaraunt" style="width:100%">
+                        <div class="container">
+                            <h4><b>Medical</b></h4>
+                            
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="card">
+                        <img src="painter.jpg" alt="restaraunt" style="width:100%">
+                        <div class="container">
+                            <h4><b>Painter</b></h4>
+                           
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="card">
+                        <img src="event.jpg" alt="restaraunt" style="width:100%">
+                        <div class="container">
+                            <h4><b>Events</b></h4>
+                           
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="card">
+                        <img src="brownie.jpg" alt="restaraunt" style="width:100%">
+                        <div class="container">
+                            <h4><b>Brownies</b></h4>
+                            
+                        </div>
+                    </div>
+                </td>
+
+                
+            </tr>
+
+           
+        </table>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
